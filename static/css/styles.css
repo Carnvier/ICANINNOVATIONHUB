@@ -145,6 +145,16 @@ a{
     background-color: rgb(8, 8, 222);
 }
 
+.bg_blue-80{
+    background-color: rgb(8, 8, 222, 0.8) ;
+}
+
+.services_bg{
+    background-image: url(/static/images/business-progress-report-graph-concept.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
 .bg_pic{
     background-image: url(/static/images/intro_section.jpg);
     background-repeat: no-repeat;
@@ -168,20 +178,15 @@ a{
 
 .container_text h1{
     font-size: 4rem;
-    margin-bottom: 20px;
     text-wrap: wrap;
     text-align: center;
     font-style: oblique;
-    padding-top: 100px;
 }
 
 .container_text p{
     font-size: 1.9rem;
     line-height: 1.5;
-    margin-bottom: 30px;
-    padding: 20px;
     text-align: center;
-    padding-top: 20px;
 }
 
 .main_container{
@@ -264,11 +269,20 @@ a{
  background-color: red
 }
 
+.bg_red-80{
+    background-color: rgba(255, 0, 0, 0.80);
+}
+
 .reviews_container{
-    background-color: red;
-    padding: 20px;
     margin-top: 20px;
     color: white;
+}
+
+.review_block_bg{
+    background-image: url(/static/images/8270986_5480.jpg);
+    background-position: center;
+    background-size: contain;
+    filter: brightness(90%);
 }
 
 .review_block{
@@ -282,7 +296,6 @@ a{
 .footer_container{
     background: linear-gradient(30deg, rgb(0, 0, 0), rgb(56, 52, 52),rgb(0, 0, 0));
     color: rgb(239, 231, 231);
-    padding: 20px
 }
 
 .name_fig_caption{
@@ -353,32 +366,21 @@ h2{
 }
 
 .about_us_2{
-    width: 90%;
+    width: 80%;
     border: 1px solid #000;
     display: block;
     margin: 50px auto;
-    transform: scale(1, 1.3);
     border-radius: 10px;
 }
 
 .approach_div{
-    margin-top: 5px;
-    background-image: url(/static/images/approach.png);
+    background-image: url(/static/images/earth-space-background_1017-8009.jpg);
+    background-position: center;
 }
 
-.approach_div h3{
-    font-size: 4rem;
-    font-style: oblique;
-    text-align: center ;
-}
+
 
 .approach_div p{
-    font-size: 1.5rem;
-    padding: 20px;
-    width: 75%;
-    display: block;
-    margin: auto;
-    text-align: center;
     line-height: 2.2rem;
 
 }
@@ -424,6 +426,12 @@ h2{
     height: 100%;
 }
 
+.bg-black-transparent_1{
+    width: 100%;
+    background-color: #000000aa;
+    height: 100%;
+}
+
 .info_fig{
     width: 50%;
     background-color: #f6f3f3;    
@@ -456,6 +464,7 @@ h2{
     transform: skew(10deg,-5deg);
 }
 
+
 .skew{
     transform: skewX(-10deg);
     transform: skewY(10deg);
@@ -487,8 +496,88 @@ h2{
 
 
 .profile_picture{
-    width: 50px;
-    height: 50px;
-    border: 1.5px solid black;
-    border-radius: 50%
+    width: 135px;
+    height: 140px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+   
+
+}
+
+.banner_background{
+    background-image: url(/static/images/banner_background.webp);
+    background-position: center top;
+    background-size: cover;
+}
+
+.prompt_button{
+    padding: 10px;
+
+}
+
+.profile_container{
+    padding: 25px;
+    border-radius: 25% 50px;
+    color: white;
+    border-top-left-radius: 50%;
+    background: linear-gradient(135deg,rgba(0, 0, 255, 1)  0%, rgba(0, 0, 255, 1) 20%, rgb(5, 5, 60)  50%,  rgb(5, 5, 37)  100%) ;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255);
+}
+
+
+
+.team_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.team_picture{
+    background-image: url(/static/images/meeting-room-office.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.team_picture_1{
+    background-image: url(/static/images/progress-development-innovation-improvment-concept.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.p-95{
+    padding: 95px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.fs-3-5{
+    font-size: 3.5rem;
+}
+
+.fs-1-1{
+    font-size: 1rem;
 }
