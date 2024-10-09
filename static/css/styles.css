@@ -124,6 +124,10 @@ a{
      
 }
 
+.nav_li > a > li{
+    font-size: 1.5rem;
+}
+
 
 .w-50{
     width: 50%;
@@ -151,8 +155,9 @@ a{
 
 .services_bg{
     background-image: url(/static/images/business-progress-report-graph-concept.jpg);
-    background-position: center;
+    background-position: top center;
     background-size: contain;
+    
 }
 
 .bg_pic{
@@ -352,7 +357,6 @@ h2{
     width: 90%;
     display: block;
     margin: auto;
-    box-shadow: -25px -25px black inset;
     border-radius: 10px;
     transform: scale(1.4, 1.3);
 
@@ -378,6 +382,7 @@ h2{
     padding: 0;
     margin: 0;
 }
+
 
 
 
@@ -416,7 +421,7 @@ h2{
 }
 
 .thematic_areas_2{
-    filter: brightness(85%);
+    filter: brightness(100%);
     width: 75%;
     border-radius: 40px;
 }
@@ -435,12 +440,10 @@ h2{
 
 .info_fig{
     width: 50%;
-    background-color: #f6f3f3;    
     display: block;
     margin: 60px auto auto auto;
     border-bottom: 0px solid black ;
     border-radius: 10px;
-    box-shadow: 500px 500px black inset;
 }
 
 .services_1{
@@ -534,8 +537,7 @@ h2{
     color: white;
     border-top-left-radius: 50%;
     background: linear-gradient(135deg,rgba(0, 0, 255, 1)  0%, rgba(0, 0, 255, 1) 20%, rgb(5, 5, 60)  50%,  #050525  100%) ;
-    margin: 0;
-    width: 100%;
+    padding: 30px;
 }
 
 .fs-1-2{
@@ -603,6 +605,229 @@ h2{
     background-color: #000;
     height: 1px;
     width: 97.5%;
+    display: block;
+    margin: auto;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1126px) {
+    .fs-5-5{
+        font-size: 4.5rem
+    }
+
+    .info_img{
+        transform: scale(1.5, 2);
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .about_us_2{
+        transform: scale(1.2, 1.8);
+        margin-top: 125px;
+    }
+
+    .services_2{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .fs-5-5{
+        font-size: 3rem;
+    }
+    .fs-1-1{
+        font-size: 0.8rem;
+    }
+    .fs-1-7{
+        font-size: 1.4rem;
+    }
+    .team_grid_container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .grid_container{
+       display: inline-block;
+       padding: 0;
+       column-gap: 0;
+    }
+
+    .border_left{
+        border: none;
+    }
+
+    .nav_li > a > li{
+        font-size: 1rem;
+    }
+
+    .image_margin{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .info_img{
+        transform: scale(1.5, 1.2);
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .column_gap{
+        column-gap: 0;
+    }
+
+    .bl-2{
+        border: none;
+    }
+
+    .w-50{
+        width: 85%;
+    }
+
+    .services_2{
+        width: 70%;
+    }
+
+    .w-75{
+        width: 95%;
+    }
+
+    .about_us_2{
+        width: 70%;
+        transform: scale(1.1, 1.4);
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+
+    .p_20_750{
+        padding: 20px;
+    }
+
+    .home_img{
+        width: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 580px){
+    .nav_li > a > li{
+        font-size: 0.7rem;
+    }
+
+    .header_container > img{
+        width: 55px;
+    }
+
+    .fs-5-5{
+        font-size: 1.8rem;
+    }
+
+    .fs-1-7{
+        font-size: 1.1rem;
+        width: 95%;
+    }
+
+    .info_fig{
+        margin-top: 50px;
+    }
+    .fs-1-5{
+        font-size: 1.3rem;
+    }
+
+    .fs-1-3{
+        font-size: 1.1rem;
+    }
+
+    .fs-1-2{
+        font-size: 1rem;
+    }
+
+    .fs-1-1{
+        font-size: 0.95rem;
+    }
+
+    .services_2{
+        width: 85%;
+    }
+    .home_img{
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .nav_li > a{
+        padding: 1.5px;
+            }
+        }
+
+@media screen and (max-width: 386px) {
+    .fs-5-5{
+        font-size: 1.1rem;
+    }
+
+    .fs-2-0{
+        font-size: 1.3rem;
+    }
+
+    .nav_li > a > li{
+        font-size: 0.5rem;
+    }
+    
+    .header_container > img{
+        width: 45px;
+    }
+
+    .fs-1-7{
+        font-size: 0.75rem;
+    }
+
+    .w-90{
+        width: 100%;
+    }
+
+    .p-20{
+        padding: 1px;
+    }
+
+    .p-10{
+        padding: 0.5px;
+    }
+
+    .est{
+        font-size: 0.7rem;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .home_img{
+        width: 50px;
+    }
+}
+
+
+.inner_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.contact_us{
+    display: block;
+    margin: auto;
+}
+
+.home_img{
+    width: 350px;
     display: block;
     margin: auto;
 }

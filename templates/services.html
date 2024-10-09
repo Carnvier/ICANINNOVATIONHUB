@@ -1,10 +1,13 @@
 {%extends 'layouts/base.html'%}
+{%block title%}SERVICES PAGE{%endblock%}
 {%block content %}
     <section class="banner_background tc_white w-100">
     <div class="bg-black-transparent_1">
-    <h2 class="text_center fs-5-5"><strong>Services</strong></h2>
-    <p class="text_center fs-1-7 ">Our services are designed to help organizations solve complex social issues by providing innovative solutions that leverage the power of data and analytics.</p>
+        <div class="p-20">
+    <h2 class="text_center fs-5-5"><strong>SERVICES</strong></h2>
+    <p class="text_center fs-1-7 w-90 block_center">Our services are designed to help organizations solve complex social issues by providing innovative solutions that leverage the power of data and analytics.</p>
     </div>
+</div>
     </section>
 
     <section class="flex_container services_bg">
@@ -15,7 +18,7 @@
         <img class="services_2 p-20 block_center" src="/static/images/services_2.png" alt="">
         </div>
         <div class="fs-1-3 mt-20 mb-10 p-20">
-            <h3 class="fs-2-0 text_center">Research & Analytics</h3>
+            <h3 class="fs-2-0 text_justify"><strong>Research & Analytics</strong></h3>
 
                 <p class="mt-20 mb-10 "><strong class="fs-1-5"><em>Collaborative Research for Social Impact</em></strong> <br> We provide cutting-edge research and tailored design and field services that ensure the realworld applicability of our research findings. Services provided include but not limited to Quantitative, Qualitative and Analytic Services.</p>
               
@@ -25,12 +28,12 @@
     
  
 
-            <div id="id01" class="w3-modal">
+            <div id="id01" class="w3-modal p-20">
               <div class="w3-modal-content">
                 <header class="w3-container bg_blue"> 
                   <span onclick="document.getElementById('id01').style.display='none'" 
                   class="w3-button w3-display-topright">&times;</span>
-                  <h2 class="text_center">***CONTINUATION***</h2>
+                  <h2 class="text_center fs-2-0"><strong>***CONTINUATION***</strong></h2>
                 </header>
                 <div class="w3-container tc_black">
                     <h4 class="mt-20 oblique fs-1-5"><strong>Importance of Research:</strong></h4>
@@ -66,7 +69,7 @@
                                 </div>
                                 </div>
                             </div>
-                            <div class="text_justify">
+                            <div class="text_justify mb-10">
                                 <h4 class="fs-1-5 text_center mt-10"><strong>Analytics</strong></h4>
                                 <p class="fs-1-2"><strong>Data management Solution:</strong></p>
                                 <div class="grid_container fs-1-2">
@@ -82,7 +85,7 @@
                             </section>
                 </div>
                 <footer class="w3-container bg_blue">
-                  <p>Modal Footer</p>
+                  <p></p>
                 </footer>
               </div>
             </div>
@@ -91,9 +94,9 @@
     <section class="bg_red-80 fs-1-3 tc_white w-100 ">
         <section class="grid_container mt-20 mb-10">
             <div  class="p-20">
-                <h3 class="fs-2-0 text_center">Capacity, Tech Talent development</h3>
+                <h3 class="fs-2-0 text_justify"><strong>Capacity, Tech Talent development</strong></h3>
                 
-                <p class="p-20 block_center w-90 text_center"><strong><em>Empowering the Future Through Knowledge and Innovation</em></strong><br>						
+                <p class="mb-10 w-90 text_justify"><strong><em>Empowering the Future Through Knowledge and Innovation</em></strong><br>						
                     <strong>Leveraging technology</strong> to make learning experiences more 
                     interactive, immersing, and interesting, our approach is designed to engage, educate, and empower 
                     learners of all ages. <br>
@@ -102,16 +105,16 @@
                     youth, marginalised populations, equipping them with in-demand skills for the digital economy.</p>
                     <button class="prompt_button block_center mt-20 button bg_blue w3-button w3-black" onclick="document.getElementById('id02').style.display='block'">Read More</button>
             </div>
-        <div class="p-20">
+        <div class="p-20 image_margin">
             <img class="services_2 skew p-20 block_center" src="/static/images/volunteer-future-expertise-future-ideas-growth-plans-concept.jpg" alt="">
             </div>
        
-            <div id="id02" class="w3-modal">
+            <div id="id02" class="w3-modal p-20">
                 <div class="w3-modal-content">
                   <header class="w3-container bg_red"> 
                     <span onclick="document.getElementById('id02').style.display='none'" 
                     class="w3-button w3-display-topright">&times;</span>
-                    <h2>***CONTINUATION***</h2>
+                    <h2 class="text_center fs-2-0"><strong>***CONTINUATION***</strong></h2>
                   </header>
                 <div class="w3-container tc_black">
                     <div>
@@ -139,7 +142,7 @@
                                 <p>Diploma in Marketing</p>
                                 <p>International Computer Driving License </p>
                             </div>
-                            <div class="grid_container text_center">
+                            <div class="grid_container text_center mb-10">
                                 <div>
                                     <h4 class="fs-1-3 "><strong>Academic & Professional Courses</strong></h4>
                                 </div>
@@ -165,20 +168,20 @@
         <img class="services_2 p-20 block_center" src="/static/images/operation-procedure-action-ideas-goal-concept.jpg" alt="">
         </div>
         <div class="p-20">
-        <h3 class="fs-2-0 text_center">Monitoring & Evaluation</h3>
-             <p class="text_center mb-10 mt-10">Our	M	& E	 services	assess	the	effectiveness	and	impact	of programs,	and	initiatives	to	ensure	accountability	and continuous	improvement. We design Monitoring & Evaluation Frameworks, Program Assessment, Impact Evaluations and Data Analysis & Reporting. </p> 
+        <h3 class="fs-2-0 text_justify"><strong>Monitoring & Evaluation</strong></h3>
+             <p class="text_justify mb-10 mt-10">Our	M	& E	 services	assess	the	effectiveness	and	impact	of programs,	and	initiatives	to	ensure	accountability	and continuous	improvement. We design Monitoring & Evaluation Frameworks, Program Assessment, Impact Evaluations and Data Analysis & Reporting. </p> 
                 <button class="prompt_button block_center mt-20 button bg_red w3-button w3-black" onclick="document.getElementById('id03').style.display='block'">Read More</button>
         </div> 
         </div>
     </section>
-    <div id="id03" class="w3-modal">
+    <div id="id03" class="w3-modal p-20">
         <div class="w3-modal-content">
           <header class="w3-container bg_blue"> 
             <span onclick="document.getElementById('id03').style.display='none'" 
             class="w3-button w3-display-topright">&times;</span>
-            <h2 class="text_center">***CONTINUATION***</h2>
+            <h2 class="text_center fs-2-0"><strong>***CONTINUATION***</strong></h2>
           </header>
-            <div class="w3-container">
+            <div class="w3-container mb-10">
                 <p class="tc_black">In addition we Support the Monitoring and Evaluation (M&E) process and develop a monitoring framework for research and
                     training projects. <br>
                     Ensure project activities comply with the policies and regulations of the donor organization.
@@ -189,7 +192,7 @@
                     Design and implementation of data systems for monitoring and evaluating project support.
                     Enhance the capacity of community/organisation personnel to collect, manage, and use data for M&E.</p>
             </div>
-          <footer class="w3-container ">
+          <footer class="w3-container">
             <p></p>
           </footer>
         </div>
@@ -198,8 +201,8 @@
 <section class="bg_red-80 fs-1-3 tc_white w-100 ">
     <section class="grid_container mt-20 mb-10">
         <div class="p-20">
-            <h3 class="fs-2-0 text_center">Business Consultancy</h3>
-                <p class="text_center mb-10 mt-10"  > We provide SMEs, start-ups business consultancy,
+            <h3 class="fs-2-0 text_justify"><strong>Business Consultancy</strong></h3>
+                <p class="text_justify mb-10 mt-10"  > We provide SMEs, start-ups business consultancy,
                     internal workflow and the inner workings
                     of the organisation, inlcuding
                     structure,
@@ -207,8 +210,8 @@
                     business environment. <br>Our specialist services are designed to meet the diverse needs of our clients in key areas and these include Trade, Investment & Finance, Legal Services and Project Management.</p>
                     <button class="prompt_button block_center mt-20 button bg_blue w3-button w3-black" onclick="document.getElementById('id04').style.display='block'">Read More</button>
     </div>
-        <div class="p-20 mb-10">
-            <img class="services_2 skew p-20 block_center" src="/static/images/deal-approval-arrangement-union-alliance-factors.jpg" alt="">
+        <div class="p-20 mb-10 image_margin">
+            <img class="services_2 skew p-20 block_center" src="/static/images/top-view-business-contract-form-with-coffee-eyeglasses-car-calculator-pen-with-magnifying-glass-wooden-background.jpg" alt="">
             </div>
        
        
@@ -221,7 +224,7 @@
             <header class="w3-container bg_red"> 
               <span onclick="document.getElementById('id04').style.display='none'" 
               class="w3-button w3-display-topright">&times;</span>
-              <h2 class="text_center">***CONTINUATION***</h2>
+              <h2 class="text_center fs-2-0"><strong>***CONTINUATION***</strong></h2>
             </header>
             <div class="w3-container tc_black">
                 <div>
@@ -245,11 +248,11 @@
                                 <p>Support for SMEs, new business in navigating legal challenges and compliance.<br>
                                 Expert legal consultancy tailored to organizational/individual needs.</p>
                             </div>
-                            <div>
+                            <div class="mb-10">
                                 <h5 class="fs-1-3"><strong>Proxy Services</strong></h5>
                                 </p>Representation and advocacy in corporate governance and shareholder matters. <br>
                                 Ensuring transparency and compliance in business operation. <br>
-                                Tailored support for various meeting types</p>
+                                Tailored support for various meeting types.</p>
                          </div>
                 </div>
             </div>
