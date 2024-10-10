@@ -1,0 +1,21 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Django specific
+*.sqlite3
+/staticfiles/
+/media/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Miscellaneous
+*.log
+*.pot
+*.pyc
