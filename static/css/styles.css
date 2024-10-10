@@ -764,10 +764,30 @@ h2{
     }
 }
 
+
+
+.home_img{
+    background-image: url(/static/images/A4\ -\ 1\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+   
+  }
+
+.home_banner{
+    background-image: url(/static/images/A4\ -\ 13.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    backdrop-filter: brightness(20%);
+}
+
 @media screen and (max-width: 480px){
     .nav_li > a{
         padding: 1.5px;
             }
+
+   
         }
 
 @media screen and (max-width: 386px) {
@@ -810,7 +830,7 @@ h2{
     }
 
     .home_img{
-        width: 50px;
+        width: 5px;
     }
 }
 
