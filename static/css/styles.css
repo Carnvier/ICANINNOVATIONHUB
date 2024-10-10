@@ -438,6 +438,12 @@ h2{
     height: 100%;
 }
 
+.bg-black-transparent_footer{
+    width: 100%;
+    background-color: #00000071;
+    height: 100%;
+}
+
 .info_fig{
     width: 50%;
     display: block;
@@ -763,6 +769,21 @@ h2{
         width: 50px;
     }
 }
+
+li{
+    list-style: none;
+}
+
+.li{
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23FFFFFF"><circle cx="7" cy="7" r="4"></circle><circle cx="17" cy="7" r="4"></circle><circle cx="7" cy="17" r="4"></circle><circle cx="17" cy="17" r="4"></circle></svg>');
+    font-size: 1em;
+}
+
+.li::marker{
+
+    font-size: 2rem;
+}
+
 
 
 
